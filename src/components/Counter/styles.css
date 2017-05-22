@@ -1,0 +1,12 @@
+.counter-button {
+    background-color: transparent;
+    border: 2px solid #222;
+    padding: .5em 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.counter-count {
+    display: inline-block;
+    padding: .5em 1em;
+}
