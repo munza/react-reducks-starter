@@ -3,20 +3,20 @@ import React, { Component } from 'react';
 import logo from './assets/img/logo.svg';
 import './styles.css';
 
-class App extends Component {
+class Welcome extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+      <div className="welcome">
+        <div className="welcome-header">
+          <img src={logo} className="welcome-logo" alt="logo" />
           <h2>Welcome to React</h2>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+        <p className="welcome-intro">
+          To get started, edit <code>src/welcome.js</code> and save to reload.
         </p>
       </div>
     );
   }
 }
 
-export default App;
+export default Welcome;
