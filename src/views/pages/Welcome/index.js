@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import logo from './assets/img/logo.svg';
 import './styles.css';
 
-class Welcome extends Component {
+class WelcomePage extends Component {
   render() {
     return (
       <div className="welcome">
@@ -12,11 +12,11 @@ class Welcome extends Component {
           <h2>Welcome to React</h2>
         </div>
         <p className="welcome-intro">
-          To get started, edit <code>src/welcome.js</code> and save to reload.
+          To get started, edit <code>src/views/pages/Welcome/index.js</code> and save to reload.
         </p>
       </div>
     );
   }
 }
 
-export default Welcome;
+export default WelcomePage;

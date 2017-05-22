@@ -5,7 +5,9 @@ import { createBrowserHistory } from 'history';
 
 import store from '../state/store';
 import { AppLayout } from '../views/layouts';
-import { WelcomePage } from '../views/pages';
+
+import routes from '../routes';
+import { mapRoutes } from '../utils';
 
 const history = createBrowserHistory();
 
@@ -14,7 +16,7 @@ function app() {
     <Provider store={store}>
       <BrowserRouter history={history}>
         <AppLayout>
-          <WelcomePage/>
+          {mapRoutes(routes)}
         </AppLayout>
       </BrowserRouter>
     </Provider>
